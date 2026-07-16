@@ -298,6 +298,8 @@ print(f" Data type is {type(historical_data)} and length is {len(historical_data
 
 ![datatype is list when length of number of results](images/asyncio_taskgroup/05_tg_dataframe_2.png)
 
+An application can iterate each result from the returned list (as shown in the `display_response_taskgroup` method) or use the following statement to get data from its closure.
+
 ```python
 next(
     response.data.df
