@@ -349,8 +349,8 @@ That’s all I have to say about the basic form of Asyncio TaskGroup code Python
 
 Yes, you can.  The idea is to prepare two separate groups of requests first:
 
-- **Event requests** - these fetch recent trade and correction events for S&P500 instruments index 0 to 10.
-- **Intraday summary requests** - these fetch 5-minute price bars over the date range for S&P500 instruments index 21 to 30.
+- **Event requests** - these fetch recent trade and correction events for Boeing (*BA.N*).
+- **Intraday summary requests** - these fetch 5-minute price bars over the date range for Lockheed Martin (*LTM.N*).
 
 Both groups are built as lists of coroutines (pending async calls, not yet running). They are then merged into a single list called `all_coroutines`, keeping their original order.
 
