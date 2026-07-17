@@ -704,9 +704,9 @@ except* LDError as errors:
 
 ![Asyncio TaskGroup with invalid fields](images/asyncio_taskgroup/13_tg_dataframe_10.png)
 
-Like `asyncio.gather`, the library and backend can handle a mix of valid and invalid fields by ignoring the invalid ones and returning data for the valid fields.
+The library and backend can handle a mix of valid and invalid fields by ignoring the invalid ones and returning data for the valid fields.
 
-The `asyncio.TaskGroup`, this mixed-valid-invalid fields request can still complete successfully.
+With `asyncio.TaskGroup`, a request that mixes valid and invalid fields can still complete successfully.
 
 You can use the `response.data.raw` statement to check what error that cause the fields are invalid.
 
