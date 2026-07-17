@@ -811,7 +811,7 @@ There isn’t a single right answer. Both Asyncio Gather and TaskGroup are good 
 
 In practice, `asyncio.TaskGroup` can show *a slight performance advantage* over `asyncio.gather` in some Python 3.11+ workloads, partly due to improvements in task management and structured concurrency. However, the difference are micro-level and irrelevant.
 
-That said, performance depends on workload characteristics and runtime conditions, so results may vary. Please check a direct comparison examples using Data Library Historical Pricing `historical_pricing.summaries.Definition` definition with 30 RICs on [30 RICs with TaskGroup](./ld_notebook_taskgroup_performance.ipynb) and [30 RICs with Gather](./ld_notebook_gather_performance.ipynb).
+That said, performance depends on workload characteristics and runtime conditions, so results may vary. Please check a direct comparison examples using Data Library Historical Pricing `historical_pricing.summaries.Definition` definition with 30 RICs on [30 RICs with TaskGroup](./ld_notebook_taskgroup_performance.ipynb) and [30 RICs with Gather](./ld_notebook_gather_performance.ipynb) notebooks.
 
 Please note that both examples measure retrieval time only, excluding display overhead.
 
