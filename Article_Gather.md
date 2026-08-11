@@ -657,7 +657,7 @@ The Historical Pricing definitions universe parameter accept both single-RIC and
 
 ## Is Historical Pricing the only module that contains asynchronous method?
 
-No, some of Data Library Content Layer IPA modules (example: IPA Financial Contracts, IPA Surface Cap, etc.) also contains the `get_data_async` method for getting data asynchronously. Please check the [Data Library for Python Reference Guide](https://developers.lseg.com/en/api-catalog/lseg-data-platform/lseg-data-library-for-python/documentation#reference-guide) document for more detail.
+No, some of Data Library Content Layer IPA modules (example: News, IPA Financial Contracts, IPA Surface Cap, etc.) also provide the `get_data_async` method for getting data asynchronously for developers. Please check the [Data Library for Python Reference Guide](https://developers.lseg.com/en/api-catalog/lseg-data-platform/lseg-data-library-for-python/documentation#reference-guide) document for more detail.
 
 ## Summary: Using Data Library get_data_async method with Asyncio Gather
 
