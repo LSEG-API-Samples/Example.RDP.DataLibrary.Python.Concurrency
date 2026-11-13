@@ -1,7 +1,7 @@
 # Concurrent Data Requests with Python Asyncio and the LSEG Data Library
 
-- Version: 1.5
-- Last update: July 2026
+- Version: 1.6
+- Last update: November 2026
 - Environment: Python + JupyterLab + Data Platform Account
 - Prerequisite: Data Platform access/entitlements
 

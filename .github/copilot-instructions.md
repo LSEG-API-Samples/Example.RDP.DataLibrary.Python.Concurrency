@@ -117,22 +117,22 @@ Notes:
 
    - **Windows (PowerShell/CMD):**
      ```powershell
-     python -m pip install --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --trusted-host pypi.org --no-cache-dir --upgrade pip
+     python -m pip install --upgrade pip
      ```
    - **macOS:**
      ```bash
-     python3 -m pip install --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --trusted-host pypi.org --no-cache-dir --upgrade pip
+     python3 -m pip install --upgrade pip
      ```
 
 4. Install the required packages:
 
    - **Windows (PowerShell/CMD):**
      ```powershell
-     python -m pip install --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --trusted-host pypi.org --no-cache-dir -r requirements.txt
+     python -m pip install -r requirements.txt
      ```
    - **macOS:**
      ```bash
-     python3 -m pip install --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --trusted-host pypi.org --no-cache-dir -r requirements.txt
+     python3 -m pip install -r requirements.txt
      ```
 
 5. Verify the installation succeeded:
